@@ -1,0 +1,81 @@
+body{
+    background-color: #efefef;
+    transition: background-color 0.3s ease;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    position: sticky;
+    top:0;
+    z-index: 100;
+    background-color: #1876f2;
+}
+.logo{
+    width:160px;
+    margin-right:45px;
+}
+.nav-left, .nav-right{
+    display: flex;
+    align-items: center;
+}
+.nav-left ul li img{
+    width:28px;
+    margin: 0 15px;
+}
+.nav-left ul li{
+    list-style: none;
+    display: inline-block;    
+}
+.nav-user-icon img{
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+   cursor:pointer;
+
+}
+.nav-user-icon{
+    margin-left: 30px;
+}
+.search-box{
+    background: #efefef;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 0px 15px;
+    width: 350px;
+}
+.search-box img{
+    width:18px
+}
+.search-box input{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+}
+.online{
+    position: relative;
+}
+.online::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #41db51;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+    border: 2px solid #efefef;
+}
+
+.settings-menu{
+    width:90%;
+    max-width:350px;
+    max-height:0px;
+    background: efefef;
+    
+}
